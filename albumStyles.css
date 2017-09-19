@@ -1,16 +1,6 @@
-.backgroundimg {
-    background-image: url(images/AKNC.jpg);
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    background-repeat: no-repeat;
-
-
-}
-
 p.impact{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: red;
+    color: #4B4343;
     font-size: 50px;
     text-align: center;
 }
@@ -26,47 +16,43 @@ a {
     text-decoration: none;
     font-weight: none;
   }
-  a:link {
+
+a:link {
     color: blue;
-  }
-  a:visited {
+}
+a:visited {
     color: Red;
-  }
-  a:hover {
+}
+a:hover {
     text-decoration: underline;
     background-color: black;
     color: white;
-  }
-  a:active {
+}
+a:active {
     font-weight: bold;
-  }
-  
-td{
-    font-style: italic;
+}
+
+ul {
     text-align: center;
+    font-style: italic;
+    list-style-position: inside;
 }
 
-tbody{
-    background-color: lemonchiffon;
+.table-striped tbody tr:nth-child(odd) td {
+   background-color:lemonchiffon;
 }
 
+.table-striped tbody tr:nth-child(even) td {
+    background-color: white;
+}
+
+table caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+  
 thead{
     background-color: grey;
     font-size: 20px;
-    font-style: bold;
+    font-weight: bold;
 }
-
-table, th, td {
-    border: 1px solid black;
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    table-layout: fixed;
-  }
-  
-
