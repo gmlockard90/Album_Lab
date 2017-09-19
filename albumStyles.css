@@ -1,7 +1,72 @@
-body {
+.backgroundimg {
     background-image: url(images/AKNC.jpg);
+    width: 500px;
+    height: 500px;
+    margin: auto;
     background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 30%;
+
+
 }
+
+p.impact{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+p.fantasy{
+    font-family:fantasy;
+    text-align: center;
+    font-size: 40px;
+}
+
+a {
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: none;
+  }
+  a:link {
+    color: blue;
+  }
+  a:visited {
+    color: Red;
+  }
+  a:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+  }
+  a:active {
+    font-weight: bold;
+  }
+  
+td{
+    font-style: italic;
+    text-align: center;
+}
+
+tbody{
+    background-color: lemonchiffon;
+}
+
+thead{
+    background-color: grey;
+    font-size: 20px;
+    font-style: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    table-layout: fixed;
+  }
+  
 
